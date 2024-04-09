@@ -37,7 +37,7 @@
                 <div class="col-xs-12 col-md-12 col-lg-2">
                     <!-- wrap logo -->
                     <div class="headerwrap__logo">
-                        <img src="{% static './asset/hero/my_person.pn'%}" alt="logo" class="img-fluid" />
+                        <p class="img-fluid" style="display:fles;">JHON C.</p>
                     </div>
                     <!-- end wrap logo -->
                     <!-- navigation icon  -->
@@ -50,11 +50,11 @@
                     <!-- navigation desktop -->
                     <nav class="navpage text-left">
                         <ul class="navpage__wrap">
-                            <li class="navpage__list"><a href="#sectionhero" class="activelink">Intro.</a></li>
-                            <li class="navpage__list"><a href="#aboutsection">About Me.</a></li>
-                            <li class="navpage__list"><a href="#servicesection">Service.</a></li>
-                            <li class="navpage__list"><a href="#portfoliosection">Portfolio.</a></li>
-                            <li class="navpage__list"><a href="#contactsection">Contact.</a></li>
+                            <li class="navpage__list"><a href="#sectionhero" class="activelink">Inicio</a></li>
+                            <li class="navpage__list"><a href="#aboutsection">Acerca de</a></li>
+                            <li class="navpage__list"><a href="#servicesection">Servicios</a></li>
+                            <li class="navpage__list"><a href="#portfoliosection">Portafolio</a></li>
+                            <li class="navpage__list"><a href="#contactsection">Contacto</a></li>
                         </ul>
                     </nav>
                     <!-- end navigation desktop -->
@@ -67,11 +67,11 @@
     <div class="overlay">
         <div class="overlay__navigation">
             <ul class="overlay__listnav">
-                <li class="navpage__list"><a href="#herosection">Intro.</a></li>
-                <li><a href="#aboutsection">About Me.</a></li>
-                <li><a href="#servicesection">Services.</a></li>
-                <li><a href="#portfoliosection">Portfolio.</a></li>
-                <li><a href="#contactsection">Contact.</a></li>
+                <li class="navpage__list"><a href="#herosection">Inicio</a></li>
+                <li><a href="#aboutsection">Acerca de</a></li>
+                <li><a href="#servicesection">Servicios</a></li>
+                <li><a href="#portfoliosection">Portafolio</a></li>
+                <li><a href="#contactsection">Contacto</a></li>
             </ul>
         </div>
     </div>
@@ -94,9 +94,9 @@
                 <div class="row">
                     <div class="col-lg-6 pr-0 mr-0 pl-lg-0 pr-lg-5 mr-lg-0 mt-3 mt-lg-0 align-items-center justify-content-center align-items-lg-left justify-content-lg-left text-center text-lg-left d-flex order-1 order-lg-0 ">
                         <div class="infohero ">
-                            <p class="infohero__p">Hello, i'm</p>
-                            <h1 class="infohero__title">Mark
-                                <span>Freeman</span>
+                            <p class="infohero__p">Hola!, soy</p>
+                            <h1 class="infohero__title">{{name}}
+                                <span>{{lastname}}</span>
                             </h1>
                             <span id="typed-text"></span>
                             <span class="cursor blink">&nbsp;</span>

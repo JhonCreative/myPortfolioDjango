@@ -573,8 +573,9 @@ Filename      : main.css
 */
     
     #contactsection {
+        color: #ffffff;
         height: auto;
-        background: #FFDB67;
+        background: #23252b;
         padding: 0 0 50px;
     }
     

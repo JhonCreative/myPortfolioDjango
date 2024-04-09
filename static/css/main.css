@@ -130,7 +130,7 @@ Filename      : main.css
         border: none;
         width: 20px;
         height: 2px;
-        background: #ddaa01;
+        background: #e2b967;
         border-radius: 3px;
         margin: 10px 5px;
         padding: 3px;
@@ -142,7 +142,7 @@ Filename      : main.css
     }
     
     .dot--active {
-        background: #181715;
+        background: #ffffff;
     }
     /*
 * ----------------------------------------------------------------------------------------
@@ -417,6 +417,7 @@ Filename      : main.css
 */
     
     #aboutsection {
+        color: #181715;
         height: auto;
         background: #ffffff;
         padding: 50px 0 0;
@@ -447,7 +448,7 @@ Filename      : main.css
 */
     
     #servicesection {
-        background: #FFDB67;
+        background: #23252b;
         height: auto;
         padding: 0 0 0;
     }
@@ -462,12 +463,13 @@ Filename      : main.css
     }
     
     .wrapservice {
+        color: #ffffff;
         padding: 20px;
     }
     
     .wrapservice i {
         font-size: 30px;
-        background: #ddaa01;
+        background: #545454;
         padding: 20px 20px;
         border-radius: 100%;
     }

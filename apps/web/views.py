@@ -17,4 +17,5 @@ class index(TemplateView):
       context = super().get_context_data(**kwargs)
       context['name'] = 'Jhon'
       context['lastname'] = 'Calsina'
+      context['description'] = 'Hi everyone 👋 Im Jhon 20-year-old junior frontend developer 💻 and photo editor 📷 with a passion for learning and exploring new technologies 📲.'
       return context
